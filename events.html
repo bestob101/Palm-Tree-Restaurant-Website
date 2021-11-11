@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Events</title>
+        <link href="project.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="web.js"></script>
+        <script>
+window.onload = function() {
+    var b1 = document.getElementById('btn1');
+    b1.addEventListener("click", readfunc);
+    function readfunc() {
+        if (b1.innerHTML == "Read More")
+        {
+            b1.innerHTML = "Read Less";
+            var a = document.getElementById('i1');
+            a.style.height = "max-content";
+        }
+        else {
+            b1.innerHTML = "Read More";
+            var a = document.getElementById('i1');
+            a.style.height = "14em";
+        }
+    }
+
+    var b2 = document.getElementById('btn2');
+    b2.addEventListener("click", readfunc2);
+
+    function readfunc2() {
+        if (b2.innerHTML == "Read More")
+        {
+            b2.innerHTML = "Read Less";
+            var a = document.getElementById('i2');
+            a.style.height = "max-content";
+        }
+        else {
+            b2.innerHTML = "Read More";
+            var a = document.getElementById('i2');
+            a.style.height = "14em";
+        }
+    }
+}
+
+        </script>
+    </head>
+    <body>
+        <nav class="main-nav">
+            <div class="logo">
+                <h1>Palm<span class="tree">Tree</span></h1>
+            </div>
+            <div id="navbar">
+                <a href="home.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="book.html">Booking</a>
+                <a href="events.html">Events</a>
+            </div>
+            <div class="menu-icon">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <main class="events">
+            <h1>Events &amp; News</h1>
+            <div class="outer">
+                <div class="item" id="i1">
+                    <div class="content">
+                        <img src="images/goa.jpg" alt="goa">
+                        <h2>Goa Trip</h2>
+                        The Palm Tree is offering one family the chance
+                        to spent <b>one week</b> in one of India's most 
+                        favourite tourist destination, <b>Goa</b>,
+                        Including 1000 Euro spending money. To enter,
+                        come dine at the Palm Tree and spend over 80 Euros
+                        worth of our authentic and delicious dishes after which
+                        you will be automatically be registered to a raffle.
+                        This event will end on <b>April 30th</b>, so hurry up
+                        and don't miss your chance. 
+                    </div>
+                    <div class="read-more">
+                        <button id="btn1">Read More</button>
+                    </div>
+                </div>
+                <div class="item" id="i2">
+                    <div class="content">
+                        <img src="images/books.jpg" alt="books">
+                        <h2>Student Discount</h2>
+                        Being a student is about learning, but we know it's about
+                        discounts too. At the Palm Tree, we are offering all UCD students
+                        <b>10% discount</b> on all our meals. So come dine at 
+                        the Palm Tree, where you can relax, chill and take the stress out 
+                        all while eating our delicious hot n spict meals.
+                    </div>
+                    <div class="read-more">
+                        <button id="btn2">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <address>
+                    UCD Campus,<br>
+                    Belfield,<br>
+                    Dublin 2<br><br>
+                    +353 1 234 5678<br>
+                    customer@palmtree.ie
+                </address>
+            <div class="icon">
+                <a href="https://www.instagram.com/"><img src="images/logo-instagram-png-13560.png" alt="instagram"></a>
+                <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="twitter"></a>
+            </div>
+        </footer>
+    </body>
+</html>
+

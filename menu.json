@@ -1,0 +1,65 @@
+{
+    "Starters":[
+        {
+            "name":"Veg Samosa",
+            "price":3.50,
+            "description":"A small pastry turnover filled spicy vegetable mixture served with tamarind chutney"
+        },
+        {
+            "name":"Onion Bhaji",
+            "price":3.50,
+            "description":"Spice indian snack consiting of fried onions and spices"
+        },
+        {
+            "name":"Malabar Fish Fry",
+            "price":6.00,
+            "description":"Deep fried fish coated in grinded spices of Kerala"
+        },
+        {
+            "name":"Kerala Vegetable Stew",
+            "price":6.00,
+            "description":"Mildly spiced, creamy, veggie-packed coconut curry"
+        }
+    ],
+    
+    "Main": [
+        {
+            "name":"Avial with Rice",
+            "price":15.00,
+            "description":"A thick mixture of drumsticks, potatoes and carrots cooked in coconut oil and mustard seeds, served with red rice"
+        },
+        {
+            "name":"Masala Dosa",
+            "price":17.00,
+            "description":"Crispy thin crepe stuffed with spicy mash potatoes and onions served with sambar (hot lentil soup)"
+        },
+        {
+            "name":"Egg Biryani",
+            "price": 20.00,
+            "description":"Boiled egg served with rice cooked with veggies and spices"
+        }
+    ],
+    
+    "Desserts":[
+        {
+            "name":"Payasam",
+            "price":5.50,
+            "description":"South Indian pudding made with vermicelli, whole milk, sweetener and cardamoms and contains cashew nuts and raisons"
+        },
+        {
+            "name":"Kozhukkattai",
+            "price":5.50,
+            "description":"Sweet dumpling made from rice flour, with a filling of grated coconut and jaggery"
+        },
+        {
+            "name":"Rava Kaseri",
+            "price":9.00,
+            "description":"Classic South Indian sweet semolina pudding mixed with cashew nuts and raisons"
+        },
+        {
+            "name":"Ladoo",
+            "price":5.00,
+            "description":"Round, sweet, yellow dessert balls made with gram flour"
+        }
+    ]
+}
